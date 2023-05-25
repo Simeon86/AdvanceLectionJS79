@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissor</title>
+
+    <!-- SEO -->
+
+    <meta name="description" content="Boilerplate HTML">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <!-- FAVICONS -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/webFavicon/apple-icon-57x57">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/webFavicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/webFavicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/webFavicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/webFavicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/webFavicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/webFavicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/webFavicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/webFavicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/webFavicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/webFavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/webFavicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/webFavicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="assets/img/webFavicon/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/webFavicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+
+
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+    <style>
+        .accordion-button {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .accordion-collapse.collapse {
+            display: none;
+        }
+        .accordion-collapse.collapse.show {
+            display: block;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+            </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong class="bold">This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+            </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong class="bold">This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>  
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+            </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong class="bold">This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
